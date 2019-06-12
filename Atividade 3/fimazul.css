@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+#caixa{
+	width: 60%;
+	height: 270px;
+	background-color: #CFCFCF;
+	border-width: small;
+  	border-style: solid;
+  	border-color: #000;
+  	position: relative;
+  	top: 50px;
+}
+
+h2{
+	 font-family: 'Roboto';
+	 color: black;
+	 font-size: 27px;
+	 position: relative;
+	 text-shadow: 1px 1px blue;
+}
+
+
+.x {
+  background-color: blue; 
+  color: black; 
+  border: 2px solid black;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.x:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+  transition: 0.2s ease;
+  box-shadow: 1px 4px blue;
+}

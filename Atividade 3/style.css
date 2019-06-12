@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+#caixa{
+	width: 65%;
+	height: 300px;
+	background-color: #CFCFCF;
+	border-width: small;
+  	border-style: solid;
+  	border-color: #000;
+  	position: relative;
+}
+
+#caixaazul{
+	width: 275px;
+	height: 20px;
+	background-color: blue;
+	position: absolute;
+	border-radius: 5px;
+	opacity: 0.01;
+	left: 1%;
+	top: 75px
+}
+
+#azul{
+	position: relative;
+	top: 70px;
+	border-radius: 10px;
+	outline: none;
+}
+
+#caixaazul:hover{
+	height: 220px;
+	transition: 1s ease;
+	opacity: 1;
+}
+
+#caixaverde{
+	width: 275px;
+	height: 20px;
+	background-color: green;
+	position: absolute;
+	border-radius: 5px;
+	opacity: 0.01;
+	left: 34.5%;
+	top: 75px
+}
+
+#verde{
+	position: relative;
+	top: 70px;
+	border-radius: 10px;
+	outline: none;
+}
+
+#caixaverde:hover{
+	height: 220px;
+	transition: 1s ease;
+	opacity: 1;
+}
+
+#caixavermelha{
+	width: 275px;
+	height: 20px;
+	background-color: red;
+	position: absolute;
+	border-radius: 5px;
+	opacity: 0.01;
+	left: 68%;
+	top: 75px;
+}
+
+#vermelha{
+	position: relative;
+	top: 70px;
+	border-radius: 10px;
+	outline: none;
+}
+
+#caixavermelha:hover{
+	height: 220px;
+	transition: 1s ease;
+	opacity: 1;
+}
+
+h2{
+	font-family: 'Roboto';
+}
+
+h4{
+	font-family: 'Roboto';
+}
+
+a{
+	color: black;
+}
+
+a:focus{
+	color: white;
+	transition: 1s;
+}
+
+a:hover{
+	color: white;
+	transition: 1s;
+}
+

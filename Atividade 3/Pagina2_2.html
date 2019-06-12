@@ -1,0 +1,74 @@
+<link rel="stylesheet" type="text/css" href="styleverde.css">
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atividade 3</title>
+	<meta charset="utf-8">
+</head>
+<body style="background-image: url(fundoverde.png);">
+
+	<div id="caixaum">
+		<div id="textoum">
+			<h2>Boa Compra!</h2>
+			<h5>Fico agradecido por ter me escolhido :)</h5>
+		</div>
+		<div id="imagemum">
+				<a href="https://www.youtube.com/user/TheKinhoDNZ">
+					<img src="logo.png" style="width: 100px; outline: none;">
+				</a>
+		</div>
+	</div>
+
+	<div id="caixadois">
+		<div id="textodois">
+		<h3>Sua compra</h3>
+	</div>
+	<hr>
+		<div id="imagemdois">
+			<img src="imgverde.png" style="width: 90%; left: 12px; position: relative; border-radius: 35px 7px;" >
+		</div>
+		<hr>
+		<div id="textodoisdois">
+			<li><b>Produto</b><br>
+			Intro 1080p
+			<br><br>
+			<li><b>Cor</b><br>
+			Verde
+			<br><br>
+			<li><b>Frames p/ Segundos</b><br>
+			60fps
+		</div>
+	</div>
+
+
+	<div id="caixatres">
+
+			
+			<form method="post" action="phpverde.php"><center>
+			<div id="textotres">
+				<h3>Dados Pessoais</h3><hr>
+				Nome: <br><input type="text" name="nome" placeholder="Seu nome aqui" required><br><br>
+				E-mail: <br><input type="text" name="email" placeholder="exemplo@email.com" required><br><br>
+				CPF: <br><input type="text" name="cpf" maxlength="11" placeholder="xxxxxxxxxxx" required pattern="[0-9]+$"><br><br>
+				RG: <br><input type="text" name="rg" pattern="[0-9]+$" maxlength="9" placeholder="xxxxxxxxx" required>
+			</div>
+			<div id="textotresum">
+			<h3>Pagamento</h3><hr>
+				Nº Cartão: <br><input type="text" name="cartao" placeholder="xxxxxxxxxxxxxxxx" required maxlength="16" pattern="[0-9]+$"><br><br>
+				Bandeira: <br> 
+		<select name="lvl">
+		<option value="Mastercard">Mastercard</option>
+		<option value="Visa">Visa</option>
+		<option value="Elo">Elo</option>
+		<option value="Outra">Outra</option>
+		</select><br><br>
+			Validade: <br><input type="date" name="validade" pattern="[0-9]+$" required=><br><br>
+			<br>
+				<input type="submit" name="button" value="Enviar ✌" style="width: 175px; height: 22px; outline: none; color: white; background-color: green; border-radius: 5px"> 
+			</div>
+
+			</form></center>
+
+
+</body>
+</html>

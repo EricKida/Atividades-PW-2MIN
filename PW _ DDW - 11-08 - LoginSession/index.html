@@ -1,0 +1,124 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz Fortnite</title>
+<meta charset="utf-8">
+</head>
+<body style="background: url('wallp.png'); background-repeat: no-repeat; background-size: 100%; overflow: hidden;">
+	<center>
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+	#logo{
+			position: absolute;
+			bottom: 65%;
+			animation-delay: 2.5s;
+			animation: logo 4s ease;
+			animation-iteration-count: initial;
+			transition: 2s;
+	}
+
+
+	@keyframes logo{
+		from{bottom: 120%;}
+		to{bottom: 65%;}
+	}
+	
+
+	#fundo{
+		position: relative;
+		top: 55px;
+		height: 400px;
+		width: 375px;
+		background: purple;
+		opacity: 0.3;
+		border-radius: 20px;
+		animation: fundo 4s ease;
+		animation-iteration-count: initial;
+	}
+@keyframes fundo{
+	from{width: 0px;}
+	to{width: 375px;}
+}
+
+
+#iniciar{
+
+	bottom: 95px;
+	position: relative;
+	color: white;
+	background: cyan;
+	border-color: white;
+	outline: none;
+	width: 170px;
+	font-family: 'Oswald';
+	font-size: 27px;
+	transition: 0.5s;
+	animation: aparece 4s ease;
+	animation-iteration-count: initial;
+	height: 40px;
+	border-color: white;
+	border-radius: 5px;
+}
+
+#iniciar:hover{
+	transition: 0.4s;
+	color: darkblue;
+	background: yellow;
+	width: 350px;
+	height: 40px;
+	border-color: black;
+
+}
+
+#creditos{
+	bottom: 90px;
+	font-size: 27px;
+	position: relative;
+	color: white;
+	background: cyan;
+	border-color: white;
+	outline: none;
+	width: 170px;
+	font-family: 'Oswald';
+	transition: 0.5s;
+	animation: aparece 4s ease;
+	animation-iteration-count: initial;
+	height: 40px;
+	border-color: white;
+	border-radius: 5px;
+}
+
+
+#creditos:hover{
+	transition: 0.4s;
+	color: darkblue;
+	background: yellow;
+	width: 350px;
+	height: 40px;
+	border-color: black;
+}
+
+@keyframes aparece{
+	from{ background: black; color: black; height: 0px;}
+	to{ background: cyan; color: white; height: 40px;}
+}
+
+
+
+</style>
+
+<div id="fundo"></div>
+	<form>
+		<center>
+<input id="iniciar" type="button" value="INICIAR" onclick="window.location.href='login.php';"><br><br>
+<input id="creditos" type="button" value="CRÉDITOS" onclick="window.location.href='creditos.html';">
+</center>
+<div id="logo"><img src="logojogo.png" style="width: 30%; top: 90px;"></div>
+	</form>
+</center>
+</body>
+</html>

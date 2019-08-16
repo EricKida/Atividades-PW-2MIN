@@ -1,0 +1,118 @@
+		@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
+		#xxx{
+			width: 98%;
+			height: 300px;
+			background: yellow;
+			opacity: 0.8;
+			position: relative;
+			top: 10px;
+			animation: purpl 2s ease;
+			animation-iteration-count: initial;
+			border-radius: 10px;
+
+		}
+
+		@keyframes purpl{
+			from{width: 0%;}
+			to{width: 98%;}
+		}
+
+		#contorno{
+			width: 10%;
+			height: 320px;
+			background: purple;
+			opacity: 0.8;
+			position: relative;
+			top: 155px;
+			animation: purp 4s ease;
+			animation-iteration-count: initial;
+			border-radius: 10px;
+		}
+			@keyframes purp{
+			from{width: 0%;}
+			to{width: 10%;}
+		}
+
+
+
+#next{
+	bottom: 200px;
+	position: relative;
+	color: white;
+	background: cyan;
+	border-color: white;
+	outline: none;
+	width: 170px;
+	font-family: 'Oswald';
+	font-size: 25px;
+	transition: 0.5s;
+	animation: aparece 2s ease;
+	animation-iteration-count: initial;
+	height: 40px;
+	border-color: white;
+	border-radius: 5px;
+}
+
+#next:hover{
+	transition: 0.4s;
+	color: darkblue;
+	background: yellow;
+	width: 350px;
+	height: 40px;
+	border-color: black;
+
+}
+@keyframes aparece{
+	from{ background: black; color: black; height: 0px;}
+	to{ background: cyan; color: white; height: 40px;}
+}
+
+fieldset{
+	border: none;
+	position: relative;
+	bottom: 65px;
+	animation: opa 4s ease;
+	animation-iteration-count: initial;
+	font-family: 'Oswald';
+	animation: shadow 2s ease;
+	animation-iteration-count: initial;
+	opacity: 1;
+}
+
+@keyframes shadow{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
+h3{
+	font-family: 'Oswald';
+}
+
+#email{
+	position: relative;
+	width: 300px;
+	background: yellow;
+	border-radius: 10px;
+	animation: abre 2s ease;
+	opacity: 1;
+	color: purple;
+	font-family: 'Oswald';
+	right: 50px;
+	bottom: 60px;
+}
+
+@keyframes abre{
+	from{width: 0px; opacity: 0;}
+	to{width: 300px; opacity: 1; color: purple}
+}
+
+#logo{
+	position: relative;
+	top: 5px;
+	opacity: 0.8;
+	right: 10px;
+	width: 120%;
+	background: purple;
+}

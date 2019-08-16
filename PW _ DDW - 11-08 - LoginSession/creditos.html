@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Créditos do Jogo</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+		#fieldset{
+			font-family: 'Oswald';
+			width: 80%;
+			animation: opa 5s ease;
+			animation-iteration-count: initial;
+			height: 10%;
+			position: relative;
+			top: 80px;
+			color: black;
+			border-style: none;
+		}
+		@keyframes opa{
+			from{opacity: 0;}
+			to{opacity: 1;}
+		}
+
+		#caixa{
+			width: 79.5%;
+			height: 67px;
+			background: yellow;
+			opacity: 0.8;
+			position: relative;
+			top: 148px;
+			animation: purpl 4s ease;
+			animation-iteration-count: initial;
+		}
+
+		@keyframes purpl{
+			from{width: 0%;}
+			to{width: 79.5%;}
+		}
+
+#voltar{
+	top: 300px;
+	position: relative;
+	color: white;
+	background: cyan;
+	border-color: white;
+	outline: none;
+	width: 170px;
+	font-family: 'Oswald';
+	font-size: 25px;
+	transition: 0.5s;
+	animation: aparece 2s ease;
+	animation-iteration-count: initial;
+	height: 40px;
+	border-color: white;
+	border-radius: 5px;
+}
+
+#voltar:hover{
+	transition: 0.4s;
+	color: darkblue;
+	background: yellow;
+	width: 350px;
+	height: 40px;
+	border-color: black;
+
+}
+@keyframes aparece{
+	from{ background: black; color: black; height: 0px;}
+	to{ background: cyan; color: white; height: 40px;}
+}
+
+
+	</style>
+</head>	
+<body style="background: url('creditos.jpg');">
+<center>
+	<div id=caixa>
+</div>
+	<div id=fieldset>
+		
+		<fieldset>
+		Este quiz foi feito por Eric Kida Meneses Corrêa e Jefferson Vitor Souza da Cunha, alunos do 2MIN. 
+		<br>
+		O tema escolhido foi Fortnite, o porque disso é pois é um jogo em alta no momento e quase todos conhecem, então, decidimos criar o quiz com base neste jogo.
+		<br>
+		</fieldset>
+	</div>
+<input id="voltar" type="button" value="VOLTAR" onclick="window.location.href='index.html';"><br><br>
+</center>
+</body>
+</html>
